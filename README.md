@@ -1,4 +1,5 @@
 ![logo](./logo.png)
+<br>
 **Note**: Sound Analysis is only supported by iOS 15 or later
 
 ## Installation
