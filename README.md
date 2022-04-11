@@ -2,8 +2,8 @@
 **Note**: Sound Analysis is only supported by iOS 15 or later
 
 ## Installation
-1.open Terminal App
-2.cd [your project's folder]
+1.open Terminal App<br>
+2.cd [your project's folder]<br>
 3.flutter add pub sound_analysis
 
 ## Usage
