@@ -1,7 +1,7 @@
 name: sound_analysis
-description: A new flutter plugin project.
+description: Flutter Plugin for iOS's Sound Analysis framework.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Heilum/flutter_sound_analyis_plugin
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
