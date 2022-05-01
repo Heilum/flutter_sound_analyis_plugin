@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
           await SoundAnalysis.platformVersion ?? 'Unknown platform version';
 
       List<String> audios = await SoundAnalysis.knownClassifications(SoundAnalysis.SNClassifierIdentifier_version1);
-      print("audios === ${audios}");
+      print("recognizable audios  === ${audios}");
 
 
       Directory directory = await getApplicationDocumentsDirectory();
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
       }
       List<Map<String,dynamic>> clips = await SoundAnalysis.analyzeAudioFile(SoundAnalysis.SNClassifierIdentifier_version1, videoFilePath);
 
-      print("audio clips:${clips}");
+      print("recognized audio clips:${clips}");
 
 
     } on PlatformException {
