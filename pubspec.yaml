@@ -1,5 +1,7 @@
 name: sound_analysis
 description: Flutter Plugin for iOS's Sound Analysis framework.
+  At present, It primaryly provides a feature：tell you the result of sound analysis to a file.｜
+  The result lists every sound clip iOS can recognized,including its name,range,and confidence.
 version: 0.0.1
 homepage: https://github.com/Heilum/flutter_sound_analyis_plugin
 
